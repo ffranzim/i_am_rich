@@ -13,8 +13,7 @@ void main() => runApp(
         backgroundColor: Colors.blueGrey[800],
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://www.ufmg.br/espacodoconhecimento/wp-content/uploads/2019/09/jason-brownlee-100213.png'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       )),
